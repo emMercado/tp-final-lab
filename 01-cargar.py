@@ -62,8 +62,8 @@ class MiVentana(QMainWindow):
     def on_nuevo(self):
         self.flag = True
         self.nuevo.setEnabled(False)
-        self.editar.setEnabled(False)
-        self.eliminar.setEnabled(False)
+        self.editar.setEnabled(True)
+        self.eliminar.setEnabled(True)
         self.aceptar.setEnabled(True)
         self.cancelar.setEnabled(True)
         self.aceptar.setEnabled(True)
